@@ -86,6 +86,7 @@ ellipse_div1.style.background = "#262F38";
 ellipse_div1.style.display = "flex";
 ellipse_div1.style.alignItems = "center";
 ellipse_div1.style.justifyContent = "center";
+ellipse_div1.style.cursor = "pointer";
 ellipse_box.appendChild(ellipse_div1);
 
 //---Ellipse number ---
@@ -107,6 +108,7 @@ ellipse_div2.style.background = "#262F38";
 ellipse_div2.style.display = "flex";
 ellipse_div2.style.alignItems = "center";
 ellipse_div2.style.justifyContent = "center";
+ellipse_div2.style.cursor = "pointer";
 ellipse_box.appendChild(ellipse_div2);
 
 //---Ellipse number 2 ---
@@ -128,6 +130,7 @@ ellipse_div3.style.background = "#262F38";
 ellipse_div3.style.display = "flex";
 ellipse_div3.style.alignItems = "center";
 ellipse_div3.style.justifyContent = "center";
+ellipse_div3.style.cursor = "pointer";
 ellipse_box.appendChild(ellipse_div3);
 
 //---Ellipse number 3 ---
@@ -149,6 +152,7 @@ ellipse_div4.style.background = "#262F38";
 ellipse_div4.style.display = "flex";
 ellipse_div4.style.alignItems = "center";
 ellipse_div4.style.justifyContent = "center";
+ellipse_div4.style.cursor = "pointer";
 ellipse_box.appendChild(ellipse_div4);
 
 //---Ellipse number 4 ---
@@ -170,11 +174,13 @@ ellipse_div5.style.background = "#262F38";
 ellipse_div5.style.display = "flex";
 ellipse_div5.style.alignItems = "center";
 ellipse_div5.style.justifyContent = "center";
+ellipse_div5.style.cursor = "pointer";
 ellipse_box.appendChild(ellipse_div5);
 
 //---Ellipse number 5 ---
 
 let ellipse_number_5 = document.createElement("p");
+// ellipse_number_5.style.cursor = "pointer";
 ellipse_number_5.textContent = "5";
 ellipse_number_5.style.color = " #999ea4";
 ellipse_number_5.style.fontSize = "18px";
@@ -196,7 +202,7 @@ button.style.width = "342px";
 button.style.height = "45px";
 button.style.borderRadius = "32px";
 button.style.backgroundColor = "#FC7613";
-
+button.style.cursor = "pointer";
 button.style.border = "none";
 button.style.display = "flex";
 button.style.alignItems = "center";
@@ -214,6 +220,7 @@ btn_text.style.letterSpacing = "1.725px";
 button.appendChild(btn_text);
 
 //--- Button bosilganda chiqadi--
+
 let show = true;
 button.addEventListener("click", () => {
   show = !show;
